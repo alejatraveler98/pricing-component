@@ -1,0 +1,141 @@
+/*Aqui colocamos todas nuestras fuentes ya
+ya sea de Google Fonts o cualquier pagina que lo 
+proporcione
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0; }
+
+img {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; }
+
+h1 {
+  font-size: var(--h1-font-size); }
+
+h2 {
+  font-size: var(--h2-font-size); }
+
+:root {
+  --very-light-grayish-blue: hsl(240, 78%, 98%);
+  --light-grayish-blue: hsl(234, 14%, 74%);
+  --grayish-blue: hsl(233, 13%, 49%);
+  --dark-grayish-blue: hsl(232, 13%, 33%); }
+
+.container-cards {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 2rem 14rem; }
+
+.container-modo {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.container-title {
+  color: var(--grayish-blue);
+  font-size: 2rem; }
+
+.modalidad {
+  display: flex; }
+  .modalidad-tipo {
+    margin-right: 1rem;
+    color: var(--light-grayish-blue); }
+  .modalidad-toggle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 55px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: var(--light-grayish-blue);
+    margin-right: 1rem; }
+    .modalidad-toggle:hover {
+      cursor: pointer; }
+    .modalidad-toggle.move {
+      display: flex;
+      justify-content: flex-start;
+      background: -moz-linear-gradient(left, #a3a8f0 0%, #696fdd 100%); }
+
+.ball {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: var(--very-light-grayish-blue);
+  z-index: 2; }
+
+.cards-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--very-light-grayish-blue);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  color: var(--grayish-blue); }
+  .cards-items__title {
+    margin-top: 1rem; }
+  .cards-items__pricing {
+    color: var(--dark-grayish-blue);
+    font-size: 3rem; }
+  .cards-items__features {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+.card-professional {
+  background: -moz-linear-gradient(left, #a3a8f0 0%, #696fdd 100%);
+  color: var(--very-light-grayish-blue); }
+
+.items-paragraph {
+  padding-bottom: .5rem;
+  padding-top: .5rem; }
+
+.pricing-professional {
+  color: inherit; }
+
+.btn-learn {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1px solid var(--grayish-blue);
+  padding: .5rem; }
+
+.btn-professional {
+  border: 1px solid var(--very-light-grayish-blue); }
+
+.btn-active {
+  background-color: var(--very-light-grayish-blue);
+  border: 1px solid var(--very-light-grayish-blue);
+  color: var(--grayish-blue);
+  border-radius: 5px; }
+
+.btn-active2 {
+  background: -moz-linear-gradient(left, #a3a8f0 0%, #696fdd 100%);
+  color: var(--very-light-grayish-blue); }
+
+.items-professional {
+  border-bottom: 1px solid var(--very-light-grayish-blue); }

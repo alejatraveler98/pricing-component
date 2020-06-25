@@ -1,0 +1,103 @@
+.container-modo{
+    margin-top:4rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-title{
+    color: var(--grayish-blue);
+    font-size:2rem;
+}
+
+.modalidad{
+    display:flex;
+    &-tipo{
+        margin-right: 1rem;
+        color:var(--light-grayish-blue);
+    }
+    
+    &-toggle{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position:relative;
+        width:55px;
+        height:25px;
+        border-radius: 20px;
+        background-color: var(--light-grayish-blue);
+        margin-right: 1rem;     
+        
+        &:hover{
+            cursor: pointer;
+        }
+
+        &.move{
+            display: flex;
+            justify-content:flex-start;
+            background: -moz-linear-gradient(left, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%);
+        }
+        
+    }
+
+    
+}
+
+
+.ball{
+    margin-left:5px;            
+    margin-right:5px;            
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: var(--very-light-grayish-blue);
+    z-index: 2;
+
+}
+
+
+// Tarjetas 
+
+.cards-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--very-light-grayish-blue);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    color: var(--grayish-blue);
+    &__title{
+        margin-top:1rem;
+    }
+    &__pricing{
+        color:var(--dark-grayish-blue);
+        font-size:3rem;
+    }
+    &__features{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        text-align: center;
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+
+}
+
+.card-professional{
+    background: -moz-linear-gradient(left, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%);
+    color: var( --very-light-grayish-blue);
+}
+
+
+.items-paragraph{
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+
+
+.pricing-professional{
+    color: inherit;
+}
+

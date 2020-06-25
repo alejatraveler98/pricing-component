@@ -1,0 +1,27 @@
+.btn-learn{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left:1rem;
+    margin-right:1rem;
+    border:1px solid var(--grayish-blue);
+    padding:.5rem;
+}
+
+.btn-professional{
+    border:1px solid var(--very-light-grayish-blue)
+}
+            
+.btn-active{
+    background-color:var(--very-light-grayish-blue) ;
+    border:1px solid var(--very-light-grayish-blue);
+    color:var(--grayish-blue);
+    border-radius:5px;
+}
+
+.btn-active2{
+    background: -moz-linear-gradient(left, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%);
+    color:var(--very-light-grayish-blue)
+}
+.items-professional{
+    border-bottom: 1px solid var(--very-light-grayish-blue);
+}

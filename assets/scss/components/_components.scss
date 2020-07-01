@@ -18,7 +18,7 @@
     }
     
     &-toggle{
-        display: flex;
+        display:flex;
         justify-content: flex-end;
         align-items: center;
         position:relative;
@@ -102,3 +102,7 @@
     color: inherit;
 }
 
+.input{
+    display: none;
+    overflow: hidden;
+}

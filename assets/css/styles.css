@@ -115,6 +115,10 @@ h2 {
 .pricing-professional {
   color: inherit; }
 
+.input {
+  display: none;
+  overflow: hidden; }
+
 .btn-learn {
   margin-top: 1rem;
   margin-bottom: 1.5rem;

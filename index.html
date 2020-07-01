@@ -15,7 +15,7 @@
         </h1>
         <div class="modalidad">
             <div class="modalidad-tipo">Annually</div>
-            <div id="toggle" class="modalidad-toggle"><div class="ball"></div></div>
+            <label id="toggle" class="modalidad-toggle"><div class="ball"><input class="input" id="plansToggle" type="checkbox" checked /></div></label>
             <div class="modalidad-tipo">Monthly</div>
         </div>
     </header>
@@ -24,26 +24,28 @@
         
         <div class="cards-items">
             <h2 class="cards-items__title">Basic</h2>
-            <div id="cards-items__pricing1" class="cards-items__pricing">$19.99</div>
+            <div id="cards-items__pricing" data-plan="basic" class=" cards-items__pricing"></div>
 
             <div class="cards-items__features">
                 <p class="items-paragraph">500GB Storage</p>
                 <p class="items-paragraph">2 Users Allowed</p>
                 <p class="items-paragraph">Send up to 3GB</p>
-                <a id="btn-active2" class="btn-learn ">Learn More</a>
+                <!-- <a id="btn-active2" class="btn-learn ">Learn More</a> -->
+                <a id="btn" class="btn-learn ">Learn More</a>
             </div>
             
         </div>
-
+        
         <div id="card-professional" class="cards-items card-professional">
             <h2 class="cards-items__title title-professional">Professional</h2>
-            <div id="cards-items__pricing2" class="cards-items__pricing pricing-professional">$24.99</div>
+            <div id="cards-items__pricing" data-plan="pro" class="cards-items__pricing pricing-professional"></div>
             
             <div class="cards-items__features">
                 <p class="items-paragraph items-professional">1TB Storage</p>
                 <p class="items-paragraph items-professional">5 Users Allowed</p>
                 <p class="items-paragraph items-professional">Send up to 10GB</p>
-                <a id="btn-active"class="btn-learn btn-professional">Learn More</a>
+                <!-- <a id="btn-active"class="btn-learn btn-professional">Learn More</a> -->
+                <a id="btn"class="btn-learn btn-professional">Learn More</a>
             </div>
             
 
@@ -51,17 +53,19 @@
 
         <div class="cards-items">
             <h2 class="cards-items__title">Master</h2>
-            <div id="cards-items__pricing3" class="cards-items__pricing">$39.99</div>
+            <div id="cards-items__pricing" data-plan="master" class="cards-items__pricing"></div>
 
             <div class="cards-items__features">                
                 <p class="items-paragraph">2TB Storage</p>
                 <p class="items-paragraph">10 Users Allowed</p>
                 <p class="items-paragraph">Send up to 20GB</p>    
-                <a id="btn-active3" class="btn-learn">Learn More</a>
+                <!-- <a id="btn-active3" class="btn-learn">Learn More</a> -->
+                <a id="btn" class="btn-learn ">Learn More</a>
             </div>
-
-
+            
+            
         </div>
+
     </main>
 
     <script src="/assets/js/main.js"></script>
